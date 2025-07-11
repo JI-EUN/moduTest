@@ -20,6 +20,8 @@ function timerHandler(endTime, timeout) {
       document.getElementById("hrs").value = 0;
       document.getElementById("min").value = 0;
       document.getElementById("sec").value = 0;
+      playBtn.classList.remove("stop");
+      playBtn.classList.add("start");
     }
   }
   timer();
