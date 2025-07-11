@@ -1,0 +1,6 @@
+.play-btn.stop::before {
+  content: "stop";
+}
+.play-btn.start::before {
+  content: "start";
+}
